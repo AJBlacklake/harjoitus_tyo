@@ -1,0 +1,57 @@
+
+:root {
+    --color-1: #727D73;
+    --color-2: #AAB99A;
+    --color-3: #D0DDD0;
+    --color-4: #F0F0D7;
+}
+
+footer {
+    background-color: var(--color-1);
+    color: var(--color-4);
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 64px;
+}
+
+footer a {
+    color: var(--color-1);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* navbar-class is bootstrap element */
+.navbar { 
+    height: 64px;
+    background-color: var(--color-1) !important;
+}
+
+.main-content {
+    margin-bottom: 64px;
+    align-content: center;
+    height: calc( 100vh - 64px - 64px ); /* 100% - footer height - navbar height */
+    overflow-y: auto; /* Scrollable content */
+}
+
+.rounded-borders {
+    border-radius: 10px;
+    border: solid 1px;
+}
+
+.border-color-3 {
+    border-color: var(--color-3);
+}
+
+.center {
+    text-align: center;
+    justify-items: center;
+}
+
