@@ -1,0 +1,28 @@
+{
+  "name": "harjoitus_tyo",
+  "version": "1.0.0",
+  "main": "index.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJBlacklake/harjoitus_tyo.git"
+  },
+  "author": "Arvi Mustajarvi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AJBlacklake/harjoitus_tyo/issues"
+  },
+  "homepage": "https://github.com/AJBlacklake/harjoitus_tyo#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "http-status-codes": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

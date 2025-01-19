@@ -11,13 +11,18 @@
     <script src="components/header.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
 
-    <title>About me</title>
+    <title>Tietoja minusta</title>
 </head>
 <body>
 
     <header-component></header-component>
-    <main id="main-content" class="main-content rounded-borders border-color-3 center">
+    <main id="main-content" class="main-content" style="justify-items: center;" >
         
+        <div
+            class="main-content rounded-borders border-color-3 center margin-10 color-1" 
+            style="max-height: 600px; min-width: 400px; background: #f7fbff; "
+        >
+
         <img src="kuva.jpg" alt="Profile Picture" class="img-fluid rounded-circle mb-3" style="max-width: 150px;">
         <p>Arvi Mustajärvi 
             <span><a href="https://www.linkedin.com/in/arvi-mustajärvi"><i class="fab fa-linkedin"></i></a></span> 
@@ -25,6 +30,8 @@
             <span><a href="https://github.com/AJBlacklake"><i class="fab fa-mail"></i></a></span> 
         </p>
         <p><a href="mailto:arvi.mustajarvi@edu.karelia.fi">arvi.mustajarvi@edu.karelia.fi</a></p>
+    </div>
+
     </main>
     <footer-component></footer-component>
 </body>

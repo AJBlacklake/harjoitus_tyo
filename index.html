@@ -18,31 +18,33 @@
 <body>
 
     <!-- Loading bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"defer ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous" defer></script>
    
     <header-component></header-component>
-
+    
     <main id="main-content" class="main-content rounded-borders border-color-3">
         
         <!-- Get all devices from the server and inset them in to "device-list"-->
         <script src="js/getAllDevices.js" defer></script>
        
-        <h1>Device listing</h1>
-        <ul id="device-list"></ul>
+        <!-- List of all devices in below -->
+        <h1 class="margin-10 color-1">Device listing</h1>
+        <ul id="device-list" class="device-listing-box" ></ul>
         
-        <h2>Add a new device</h2>
-        <form id="add-device-form" >
-            <div class="mb-2">
+        <!-- Add a new device form -->
+        <h3 class="color-1 margin-10" style="place-self: center;" >Add a new device</h3>
+        <form id="add-device-form" class="add-device-form rounded-borders border-color-3 " >
+            <div class="form-field">
                 <label for="brand" class="form-label">Name</label>
                 <input type="text" class="form-control" id="device_name" required>
             </div>
-            <div class="mb-3">
+            <div class="form-field">
                 <label for="price" class="form-label">Price</label>
                 <input type="number" class="form-control" id="device_price" required>
             </div>
-            <button type="submit" class="btn btn-primary">Add Device</button>
+            <button type="submit" class="btn btn-primary" style="max-height: 50px;" >Add Device</button>
         </form>
     </main>
 
@@ -52,6 +54,7 @@
         import { addDevice } from './js/addDevice.js';
         // Add a new device to the server  
         document.getElementById('add-device-form').onsubmit = addDevice;
+
     </script>
 </body>
 </html>

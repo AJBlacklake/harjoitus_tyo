@@ -8,13 +8,13 @@ class ListItem extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <li class="list-group-item border-bottom">
-                <div class="row">
+                <div class="row" style="align-items: center;" >
                     <div class="col-4">
-                        <p class="h7" id="name" >${this.getAttribute('name')}</p>
+                        <span class="h7" id="name" >${this.getAttribute('name')}</span>
                         <input type="text" class="form-control d-none" id="name-input" value="${this.getAttribute('name')}">
                     </div>
                     <div class="col-2">
-                        <p class="h7" id="price" >${this.getAttribute('price')}</p>
+                        <span class="h7" id="price" >${this.getAttribute('price')}</span>
                         <input type="" class="form-control d-none" id="price-input" value="${this.getAttribute('price')}">
                     </div>
                     <div class="col-6">

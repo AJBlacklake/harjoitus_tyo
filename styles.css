@@ -6,6 +6,22 @@
     --color-4: #F0F0D7;
 }
 
+.color-1 {
+    color: var(--color-1);
+}
+
+.color-2 {
+    color: var(--color-2);
+}
+
+.color-3 {
+    color: var(--color-3);
+}
+
+.color-4 {
+    color: var(--color-4);
+}
+
 footer {
     background-color: var(--color-1);
     color: var(--color-4);
@@ -55,3 +71,36 @@ footer a:hover {
     justify-items: center;
 }
 
+.margin-10 {
+    margin: 10px;
+}
+
+#add-device-form {
+    margin: 10px;
+}
+
+.add-device-form div {
+    max-width: 400px;
+}
+
+.device-listing-box {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px;
+    border-color: var(--color-3);
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-field {
+    margin: 10px;
+}
+
+form button {
+    margin: 10px;
+}
