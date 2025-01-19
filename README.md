@@ -17,7 +17,10 @@ Harjoitus Tyo on harjoitusprojekti, joka on toteutettu käyttäen JavaScriptiä,
     ```bash
     cd harjoitus_tyo
     ```
-3. Asenna tarvittavat paketit komennolla ```npm install```
+3. Asenna tarvittavat paketit komennolla
+   ```bash
+   npm install
+   ```
 
 ## Käyttö
 
