@@ -1,7 +1,7 @@
 # Harjoitus Tyo
 
 ## Kuvaus
-Harjoitus Tyo on harjoitusprojekti, joka on toteutettu käyttäen JavaScriptiä, HTML:ää ja CSS:ää. Tämä projekti on suunniteltu opettamaan perusasioita verkkosovelluskehityksestä.
+Harjoitus Tyo on harjoitusprojekti, joka on toteutettu käyttäen JavaScriptiä, HTML:ää ja CSS:ää. Tämän projektin tarkoitus on hyväksilukea karelia AMK web ohjelmointi 1-kurssi ja todentaa osaamiseni perinteisessä Web-ohjelmoinnissa, ilman varsinaisia JavaScript kirjastoja tai frameworkkia(ns. vanilla JS).
 
 ## Sisältö
 - **JavaScript (64.1%)**: Sovelluksen logiikka ja interaktiot.
