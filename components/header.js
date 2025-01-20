@@ -16,7 +16,7 @@ class Header extends HTMLElement {
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Tehtävälista</a>
+                                <a class="nav-link" href="index.html">Laitelistaus</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="aboutMe.html" >yhteystiedot</a>
