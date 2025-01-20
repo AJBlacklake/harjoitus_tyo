@@ -7,6 +7,7 @@ Harjoitus Tyo on harjoitusprojekti, joka on toteutettu käyttäen JavaScriptiä,
 - **JavaScript (64.1%)**: Sovelluksen logiikka ja interaktiot.
 - **HTML (27.4%)**: Sivuston rakenne ja sisältö.
 - **CSS (8.5%)**: Sivuston ulkoasu ja tyylit.
+- **REST API**: Sivuston datan haku ja tallennus tapahtuu avoimessa demo rajapinnassa: https://restful-api.dev/
 
 ## Asennus
 1. Kloonaa repo:
