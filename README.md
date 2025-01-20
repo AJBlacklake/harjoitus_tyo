@@ -17,13 +17,16 @@ Harjoitus Tyo on harjoitusprojekti, joka on toteutettu käyttäen JavaScriptiä,
     ```bash
     cd harjoitus_tyo
     ```
-3. Asenna tarvittavat paketit komennolla
+3. Asenna tarvittavat paketit:
    ```bash
    npm install
    ```
 
 ## Käyttö
 
-4. Käynnistä node.js serveri koneellasi komennolla `node index.js 3000`
-5. mene osoitteeseen http://localhost:3000
+4. Käynnistä node.js serveri koneellasi
+   ```bach
+   node index.js 3000
+   ```
+5. mene osoitteeseen [http://localhost:3000](http://localhost:3000)
 
